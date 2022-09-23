@@ -1,0 +1,138 @@
+projectSlug: new-project-author-CsNsOfj4
+
+module: social-network
+
+objective:
+  los:
+    - key: lo-1
+      value: Learning is cool
+    - key: lo-2
+      value: Learning is not cool
+context:
+  aim:
+    file: writeup/aim.md
+  scenario:
+    file: writeup/scenario.md
+  goals:
+    file: writeup/goals.md
+  general:
+    prerequisites: prereq
+    language: lang
+    cloudplatform: csp
+    resources: resources
+  budget: 10
+  tags:
+    - key: key2
+      value: val2
+    - key: key-here
+      value: key-val
+
+evaluation:
+  penalties:
+    - key: pen12
+      value: '12'
+    - key: pen10
+      value: '10'
+  bonus:
+    - key: bon1
+      value: '10'
+  tasks:
+    - title: task1
+      description: [{
+            id: 2,
+            type: 'TEXT',
+            content:  'file1.md'
+      },
+      {
+        id: 3,
+        type: 'ASSESSME',
+        content: '12'
+      },
+      {
+        id: 4,
+        type: 'INLINE',
+        content: '12'
+      },
+      {
+        id: 5,
+        type: 'TEXT',
+        content: 'file2.md'
+      }]
+      slug: 'task-1-slug'
+      scenario: ''
+      taskSummary: ''
+      type: OPTIONAL
+      maxSubmissions:
+      score: 60
+      rubricItems:
+        - title: col1
+          inForm: false
+          inScoreboard: true
+          isScore: true
+          inSubmission: true
+          score: 20
+        - title: col2
+          inForm: false
+          inScoreboard: true
+          isScore:
+          inSubmission: true
+          score: 30
+        - title: col3
+          inForm: false
+          inScoreboard: true
+          isScore: true
+          inSubmission: true
+          score: 10
+        - title: col4
+          inForm: false
+          inScoreboard: true
+          isScore:
+          inSubmission: true
+          score: 0
+    - title: Task2
+      description: []
+      scenario: ''
+      slug: 'task-2-slug'
+      taskSummary: ''
+      sequence:
+      goals: []
+      type:
+      maxSubmissions:
+      score: 40
+      rubricItems:
+        - title: t2 col1
+          inForm: false
+          inScoreboard: true
+          isScore: true
+          inSubmission: true
+          score: 40
+        - title: t2 col2
+          inForm: false
+          inScoreboard: true
+          isScore:
+          inSubmission: true
+          score: 0
+    - title: Task3
+      description: []
+      sequence:
+      taskSummary: ''
+      goals: []
+      type:
+      maxSubmissions:
+      score: 40
+      rubricItems:
+        - title: rubric1
+          inForm: false
+          inScoreboard: true
+          isScore: true
+          inSubmission: true
+          score: 40
+        - title: rubric2
+          inForm: false
+          inScoreboard: true
+          isScore:
+          inSubmission: true
+          score: 0
+conclusion:
+  remarks: this is the end
+  eoslink: https://projects.sailplatform.org/f22-eoslink
